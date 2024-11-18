@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/quotation.png" type="image/x-icon">
+    <title>Quote Generator</title>
+    <!-- ---font family--- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body class="d-flex justify-content-center align-items-center vh-100">
+    <div class="contant d-flex flex-column text-center">
+      <h1 class="my-3">Quote of the Day</h1>
+      <p class="my-1">Press the button below to recieve a random quote!</p>
+      <div class="d-flex justify-content-center">
+        <button onclick="createQuote();" class="my-3 rounded-3">New Quote</button>
+      </div>
+      <p id="quote"></p>
+      <p id="author"></p>
+    </div>
+
+    <script src="./JS/index.js"></script>
+  </body>
+</html>

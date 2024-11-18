@@ -1,0 +1,24 @@
+body{
+    background-color:#FAF7F0 ;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    font-weight: 900;
+}
+p, h1{
+    color: #4A4947;
+}
+p{
+    font-family: "PT Serif", serif;
+}
+button {
+    width: 200px;
+    height: 70px;
+    background-color:#D8D2C2;
+    color: #4A4947;
+    font-family: "PT Serif", serif;
+}
+button:hover{
+    background-color:#C8C2B2
+}
